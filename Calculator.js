@@ -61,3 +61,7 @@
         function toRadians(degrees) {
             return degrees * (Math.PI / 180);
         }
+        function deleteLastCharacter() {
+            var display = document.getElementById("display");
+            display.value = display.value.slice(0, -1);
+        }
