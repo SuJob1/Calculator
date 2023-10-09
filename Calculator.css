@@ -1,111 +1,111 @@
  /* Reset */
-        * {
-            border: none; /* Clear default borders */
-            font-family: 'Open Sans', Arial; /* Set font */
-            margin: 0; /* Clear default margins */
-            padding: 0; /* Clear default paddings */
-        }
+ * {
+    border: none; /* Clear default borders */
+    font-family: 'Open Sans', Arial; /* Set font */
+    margin: 0; /* Clear default margins */
+    padding: 0; /* Clear default paddings */
+}
 
-        /* Center the calculator */
-        .center {
-            background-color: #fff;
-            border-radius: 100%; /* Circular shape */
-            height: 600px;
-            margin: auto; /* Center horizontally */
-            width: 600px;
-        }
+/* Center the calculator */
+.center {
+    background-color: #fff;
+    border-radius: 100%; /* Circular shape */
+    height: 600px;
+    margin: auto; /* Center horizontally */
+    width: 600px;
+}
 
-        /* Header styling */
-        h1 {
-            color: #495678;
-            font-size: 40px;
-            margin-top: 20px;
-            padding-top: 15px;
-            display: block;
-            text-align: center;
-            text-decoration: none;
-        }
+/* Header styling */
+h1 {
+    color: #495678;
+    font-size: 40px;
+    margin-top: 20px;
+    padding-top: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
 
-        /* Form styling */
-        form {
-            background-color: #495678;
-            box-shadow: 4px 4px #3d4a65;
-            margin: 20px auto;
-            padding: 40px 0 30px 40px;
-            width: 315px;
-        }
+/* Form styling */
+form {
+    background-color: #495678;
+    box-shadow: 4px 4px #3d4a65;
+    margin: 20px auto;
+    padding: 40px 0 30px 40px;
+    width: 315px;
+}
 
-        /* Button styling */
-        .btn {
-            cursor: pointer; /* Hand pointer */
-            font-size: 20px;
-            height: 45px;
-            margin: 5px 0 7px 10px;
-            outline: none; /* Clear default outline */
-            width: 45px;
-        }
+/* Button styling */
+.btn {
+    cursor: pointer; /* Hand pointer */
+    font-size: 20px;
+    height: 45px;
+    margin: 5px 0 7px 10px;
+    outline: none; /* Clear default outline */
+    width: 45px;
+}
 
-        .btn:first-child {
-            margin: 5px 0 5px 10px;
-        }
+.btn:first-child {
+    margin: 5px 0 5px 10px;
+}
 
-        /* Styles for the display, buttons, and form */
-        .btn, #display, form {
-            border-radius: 25px;
-        }
+/* Styles for the display, buttons, and form */
+.btn, #display, form {
+    border-radius: 25px;
+}
 
-        /* Display styling */
-        #display {
-            background-color: #98d1dc;
-            box-shadow: inset 6px 6px 0px #3facc0;
-            color: #dededc;
-            font-size: 20px;
-            height: 47px;
-            margin-left: 10px;
-            padding-right: 10px;
-            text-align: right;
-            width: 265px;
-        }
+/* Display styling */
+#display {
+    background-color: #98d1dc;
+    box-shadow: inset 6px 6px 0px #3facc0;
+    color: #dededc;
+    font-size: 20px;
+    height: 47px;
+    margin-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+    width: 265px;
+}
 
-        /* Button styling based on their type */
-        .number {
-            background-color: #72778b;
-            box-shadow: 0 5px #5f6680;
-            color: #dededc;
-        }
+/* Button styling based on their type */
+.number {
+    background-color: #72778b;
+    box-shadow: 0 5px #5f6680;
+    color: #dededc;
+}
 
-        .number:active {
-            box-shadow: 0 2px #5f6680;
-            transform: translateY(2px);
-        }
+.number:active {
+    box-shadow: 0 2px #5f6680;
+    transform: translateY(2px);
+}
 
-        .operator {
-            background-color: #dededc;
-            box-shadow: 0 5px #bebebe;
-            color: #72778b; 
-        }
+.operator {
+    background-color: #dededc;
+    box-shadow: 0 5px #bebebe;
+    color: #72778b; 
+}
 
-        .operator:active {
-            box-shadow: 0 2px #bebebe;
-            transform: translateY(2px);
-        }
-        .zero {          
-            width: 165px;
-            background-color: #72778b;
-            box-shadow: 0 5px #5f6680;
-            color: #dededc;
-        }
-        .zero:active {
-            box-shadow: 0 2px #5f6680;
-            transform: translateY(2px);
-        }
-        .other {
-            background-color: #e3844c;
-            box-shadow: 0 5px #e76a3d;
-            color: #dededc;
-        }
+.operator:active {
+    box-shadow: 0 2px #bebebe;
+    transform: translateY(2px);
+}
+.zero {          
+    width: 105px;
+    background-color: #72778b;
+    box-shadow: 0 5px #5f6680;
+    color: #dededc;
+}
+.zero:active {
+    box-shadow: 0 2px #5f6680;
+    transform: translateY(2px);
+}
+.other {
+    background-color: #e3844c;
+    box-shadow: 0 5px #e76a3d;
+    color: #dededc;
+}
 
-        .other:active {
-            box-shadow: 0 2px #e76a3d;
-            transform: translateY(2px);
-        }
+.other:active {
+    box-shadow: 0 2px #e76a3d;
+    transform: translateY(2px);
+}
