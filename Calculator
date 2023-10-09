@@ -98,7 +98,7 @@
             transform: translateY(2px);
         }
         .zero {          
-            width: 165px;
+            width: 105px;
             background-color: #72778b;
             box-shadow: 0 5px #5f6680;
             color: #dededc;
@@ -153,7 +153,8 @@
 
 			<br>
 			<input type="button" class="btn zero" value="0" onclick="get(this.value);">
-			<input type="button" class="btn operator" value="." onclick="get(this.value);">		
+			<input type="button" class="btn operator" value="." onclick="get(this.value);">
+            <input type="button" class="btn other" value="Del" onclick="deleteLastCharacter();">		
             <input type="button" class="btn other" value="=" onclick="calculates();">
         </form>
     </div>
@@ -221,6 +222,10 @@
         // Convert degrees to radians
         function toRadians(degrees) {
             return degrees * (Math.PI / 180);
+        }
+        function deleteLastCharacter() {
+            var display = document.getElementById("display");
+            display.value = display.value.slice(0, -1);
         }
     </script>
 </body>
