@@ -1,0 +1,145 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Open Sans', Arial;
+}
+
+/* Center the calculator */
+.center {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+/* Header styling */
+h1 {
+    font-size: 40px;
+    color: #495678;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+/* Form styling */
+form {
+    width: 315px;
+    padding: 40px 0 30px 40px;
+    margin: 20px auto;
+    background-color: #495678;
+    border-radius: 25px;
+    box-shadow: 4px 4px #3d4a65;
+}
+
+/* Display styling */
+#display {
+    width: 265px;
+    height: 47px;
+    margin-left: 10px;
+    padding-right: 10px;
+    background-color: #98d1dc;
+    color: #dededc;
+    font-size: 20px;
+    text-align: right;
+    border-radius: 25px;
+    box-shadow: inset 6px 6px 0px #3facc0;
+}
+
+/* Base button styling */
+.btn {
+    width: 45px;
+    height: 45px;
+    margin: 5px 0 7px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+}
+
+.btn:first-child {
+    margin: 5px 0 5px 10px;
+}
+
+/* Number buttons */
+.number {
+    background-color: #72778b;
+    color: #dededc;
+    box-shadow: 0 5px #5f6680;
+}
+
+.number:active {
+    box-shadow: 0 2px #5f6680;
+    transform: translateY(2px);
+}
+
+/* Operator buttons */
+.operator {
+    background-color: #dededc;
+    color: #72778b;
+    box-shadow: 0 5px #bebebe;
+}
+
+.operator:active {
+    box-shadow: 0 2px #bebebe;
+    transform: translateY(2px);
+}
+
+/* Zero button */
+.zero {
+    width: 105px;
+    background-color: #72778b;
+    color: #dededc;
+    box-shadow: 0 5px #5f6680;
+}
+
+.zero:active {
+    box-shadow: 0 2px #5f6680;
+    transform: translateY(2px);
+}
+
+/* Other buttons */
+.other, .clear, .result {
+    background-color: #e3844c;
+    color: #dededc;
+    box-shadow: 0 5px #e76a3d;
+}
+
+.other:active, .clear:active, .result:active {
+    box-shadow: 0 2px #e76a3d;
+    transform: translateY(2px);
+}
+
+.clear, .result {
+    width: 45px;
+}
+
+.result {
+    width: 105px;
+}
+
+/* Calculations table styling */
+#calculationsTable {
+    position: absolute;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 100px;
+    border-collapse: collapse;
+}
+
+#calculationsTable th, #calculationsTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+#calculationsTable th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+#calculationsTable tr:hover {
+    background-color: #ddd;
+}
